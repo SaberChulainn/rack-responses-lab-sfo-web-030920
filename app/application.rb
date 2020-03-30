@@ -4,6 +4,6 @@ class Application
     resp = Rack::Response.new
   
     if Time.now.hour < 12
-      
+      resp.write 
   
 end
